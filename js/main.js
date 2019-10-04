@@ -115,7 +115,7 @@
   $(".testimonials-carousel").owlCarousel({
     // autoplay: true,
     dots: true,
-    loop: true,
+    // loop: true,
     // autoplayspeed: 3000,
     responsive: {
       0: {
@@ -132,9 +132,12 @@
 
   // Clients carousel (uses the Owl Carousel library)
   $(".clients-carousel").owlCarousel({
-    autoplay: true,
+    // autoplay: true,
     dots: true,
-    loop: true,
+    // autoWidth: true,
+    center: true,
+    items: 2,
+    // loop: true,
     responsive: {
       0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 }
     }
